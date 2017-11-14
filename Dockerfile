@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM node:9.1
 
 MAINTAINER Greg Bugaj "gregbugaj@yahoo.com"
 
@@ -8,6 +8,7 @@ RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get -yq upgrade
 RUN apt-get install -y apt-utils
 RUN apt-get update
+
 
 RUN \
    echo ">> Installing Java <<"  \
