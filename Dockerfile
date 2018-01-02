@@ -27,3 +27,5 @@ RUN \
    && apt-get clean  \
    && rm -rf /var/lib/apt/lists/* \
    && java -version
+   && echo "Insalling Angular CLI"
+   && npm install -g @angular/cli
