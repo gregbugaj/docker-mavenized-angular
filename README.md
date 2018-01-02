@@ -1,2 +1,2 @@
-# mavenized-nodejs
-mavenized nodejs docker container
+# docker-mavenized-angular
+mavenized nodejs docker container and pre-insalled Angual CLI
